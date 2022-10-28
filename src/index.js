@@ -24,18 +24,6 @@ import validator from './validator.js';
 
     //let numerosPares = inputInverso.filter(inputInverso => inputInverso > 5 );
     //console.log(numerosPares);
-    
-   
-    //identificar numeros pares
-    //.filter()
-
-    let numerosPares = inputInverso.filter(inputInverso => inputInverso.index(), index==2 );
-    console.log(numerosPares);
-
-       //filter(predicate: (value: any, index: number, array: any[]) => unknown, thisArg?: any): any[]
-
-    let numerosimPares
-
 
 
     };

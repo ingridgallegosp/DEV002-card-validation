@@ -34,7 +34,7 @@ import validator from './validator.js';
 
     // para input inverso, si (index+1) % 2 entonces ejecuta la función x*2
     
-    /*let indexPares = inputInverso.filter(
+    let indexPares = inputInverso.filter(
         function (inputInverso) {
             return inputInverso*2 ;
             }

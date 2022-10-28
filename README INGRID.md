@@ -52,7 +52,11 @@ Realice un alcance con subtareas a cumplir en cada actividad propuesta:
 - [ ] **Pasar números a un array inverso**
 
 - [ ] **Aplicar operación a números en posición par**
+      -Identificar numeros con ubicacion par
+      Realizar multiplicacion
+
 - [ ] **Sumar dijitos y nuevos digitos**
+
 - [ ] **Comprobar si es válido**
 
 SIGUIENTES PASOS

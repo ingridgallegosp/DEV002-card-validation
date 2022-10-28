@@ -21,9 +21,28 @@ import validator from './validator.js';
 
    
     //filtrar numeros >5 FUNCIONA
-
     //let numerosPares = inputInverso.filter(inputInverso => inputInverso > 5 );
-    //console.log(numerosPares);
+    //console.log(numerosPares); se desglosa abajo
+    
+    /*let mayoraCinco = inputInverso.filter(
+    function (inputInverso) {
+        return inputInverso>5 ;
+        }
+        );
+    console.log(mayoraCinco);*/
 
 
+    // para input inverso, si (index+1) % 2 entonces ejecuta la función x*2
+    
+    /*let indexPares = inputInverso.filter(
+        function (inputInverso) {
+            return inputInverso*2 ;
+            }
+            );
+        console.log(indexPares);
+
+
+     let numerosimpares =inputInverso.filter(inputInve);*/
+
+// concat() une dos o más arreglos y devuelve un nuevo arreglo.
     };

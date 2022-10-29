@@ -32,17 +32,18 @@ import validator from './validator.js';
     console.log(mayoraCinco);*/
 
 
-    // para input inverso, si (index+1) % 2 entonces ejecuta la función x*2
+    // para input inverso, si (index+1) % 2 === 0 entonces ejecuta la función x*2
     
     let indexPares = inputInverso.filter(
+        
         function (inputInverso) {
-            return inputInverso*2 ;
+            return ------------;
             }
             );
         console.log(indexPares);
 
 
-     let numerosimpares =inputInverso.filter(inputInve);*/
+     let numerosimpares =inputInverso.filter(inputInve);
 
 // concat() une dos o más arreglos y devuelve un nuevo arreglo.
     };

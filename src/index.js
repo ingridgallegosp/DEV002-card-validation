@@ -34,25 +34,55 @@ console.log(validator);
         });
     console.log(mayoraCinco);*/
 
-
-    // para tarjetaInvertida, si (index+1) % 2 === 0    //entonces ejecuta la función x*2
-
+    // funcion filter()
     /*let ubicarPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
         return ((index+1) %2 === 0) ;
     });
-    console.log (ubicarPares);*/ // el resultado es un array de 5 digitos
+    console.log (ubicarPares);*/ // el resultado es un array solo con los elementos que cumplen la condicion
 
-    
-let ubicarPares = tarjetaInvertida.map((elemento, index, tarjetaInvertida) => { 
-       // return ((index+1) %2 === 0) ;
+    // para tarjetaInvertida, si (index+1) % 2 === 0, entonces ejecuta la función x*2
 
+    let ubicarPares = tarjetaInvertida.map((element, index, tarjetaInvertida) => { 
         if ((index+1)%2===0){
-            return elemento*2
+            return element*2
         }else{
-            return elemento
+            return element
         }
     });
-    console.log (ubicarPares); //map me permite crear un nuevo array con los elementos q si cumplen la condicion
+    console.log (ubicarPares); //map me permite crear un nuevo array , igual numero de elementos, modificando los q si cumplen la condicion
 
+    
+    //sumar digitos lenght > 1
+
+    let cardNumberSuma = ubicarPares.map((element, index, ubicarPares) => { 
+       // if (element.lenght > 1){
+        if ((index+1)%2===0){
+            var suma = 0; 
+            while (element > 0){
+            suma = suma + (element % 10);
+            element = element / 10 ;
+            }         
+        }else{
+            return element
+        }
+        
+    });
+    console.log (cardNumberSuma);
+ 
+
+
+    
+    //sumar todos digitos
+    //let totalSuma = 0
+// funtcion sumar
+/*const numeros = [100, 300, 500, 70];
+let suma = 0;
+
+for (let n of numeros) {
+	suma += n;
+}
+
+console.log(suma);
+*/
 
     };

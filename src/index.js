@@ -1,7 +1,12 @@
 import validator from './validator.js';
 
-//console.log(validator);
+console.log(validator);
 
+    document.getElementById('Formulario').onsubmit = function(event){
+        event.preventDefault()
+        //evitar que la pagina se recargue por completo
+        //evento submit en formulario recarga la pagina
+    }
 
     //pedir numero y hacer clic en el boton
     document.getElementById("botonValidar").onclick = 
@@ -34,25 +39,20 @@ import validator from './validator.js';
 
     /*let ubicarPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
         return ((index+1) %2 === 0) ;
-        });
-    console.log (ubicarPares);
-
-
-   let ubicarImPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
-    return ((index+1) %2 != 0) ;
     });
-    console.log (ubicarImPares);*/
+    console.log (ubicarPares);*/
+
     
 let ubicarPares = tarjetaInvertida.map((elemento, index, tarjetaInvertida) => { 
-        return ((index+1) %2 === 0) ;
-        });
+       // return ((index+1) %2 === 0) ;
+
+        if ((index+1)%2===0){
+            return elemento*2
+        }else{
+            return elemento
+        }
+    });
     console.log (ubicarPares);
 
-// concat() une dos o más arreglos y devuelve un nuevo arreglo.
 
-//let multiplicador = 2;
-
-//let productos = numeros.map(numero => numero * multiplicador);
-
-//console.log(productos);
     };

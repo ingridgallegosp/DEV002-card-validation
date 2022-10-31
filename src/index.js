@@ -40,7 +40,7 @@ console.log(validator);
     /*let ubicarPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
         return ((index+1) %2 === 0) ;
     });
-    console.log (ubicarPares);*/
+    console.log (ubicarPares);*/ // el resultado es un array de 5 digitos
 
     
 let ubicarPares = tarjetaInvertida.map((elemento, index, tarjetaInvertida) => { 
@@ -52,7 +52,7 @@ let ubicarPares = tarjetaInvertida.map((elemento, index, tarjetaInvertida) => {
             return elemento
         }
     });
-    console.log (ubicarPares);
+    console.log (ubicarPares); //map me permite crear un nuevo array con los elementos q si cumplen la condicion
 
 
     };

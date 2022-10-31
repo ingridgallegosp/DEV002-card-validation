@@ -55,19 +55,21 @@ console.log(validator);
     //sumar digitos lenght > 1
 
     let cardNumberSuma = ubicarPares.map((element, index, ubicarPares) => { 
-       // if (element.lenght > 1){
-        if ((index+1)%2===0){
-            var suma = 0; 
-            while (element > 0){
-            suma = suma + (element % 10);
-            element = element / 10 ;
-            }         
+        if ((index+1)%2===0) {     
+            var suma = 0;
+            do{ 
+                suma = suma + (element % 10);
+                element = element/10;
+            } while 
+                (element > 0)
+            return suma
         }else{
             return element
         }
-        
     });
-    console.log (cardNumberSuma);
+    console.log (cardNumberSuma); 
+    // numeros decimales-deben ser enteros
+
  
 
 

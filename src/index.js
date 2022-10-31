@@ -8,42 +8,51 @@ import validator from './validator.js';
     function (){
     
     //almacenar valor en variable
-    let valorInput = document.getElementById("cardNumber").value;
-    console.log(valorInput)
+    let valorObtenido = document.getElementById("cardNumber").value;
+    console.log(valorObtenido)
 
     //colocar elementos en array
-    let valorInputArr = Array.from(valorInput);
-    console.log(valorInputArr)
+    let valorTarjeta = Array.from(valorObtenido);
+    console.log(valorTarjeta)
 
     //colocar en reversa el valor 
-    let inputInverso = valorInputArr.reverse();
-    console.log(inputInverso);
+    let tarjetaInvertida = valorTarjeta.reverse();
+    console.log(tarjetaInvertida);
 
-   
-    //filtrar numeros >5 FUNCIONA
-    //let numerosPares = inputInverso.filter(inputInverso => inputInverso > 5 );
+    /*filtrar numeros >5 FUNCIONA
+    //let numerosPares = tarjetaInvertida.filter(tarjetaInvertida => tarjetaInvertida > 5 );
     //console.log(numerosPares); se desglosa abajo
     
-    /*let mayoraCinco = inputInverso.filter(
-    function (inputInverso) {
-        return inputInverso>5 ;
-        }
-        );
+    let mayoraCinco = tarjetaInvertida.filter(
+    function (tarejtaInvertida) {
+        return tarjetaInvertida>5 ;
+        });
     console.log(mayoraCinco);*/
 
 
-    // para input inverso, si (index+1) % 2 === 0 entonces ejecuta la función x*2
+    // para tarjetaInvertida, si (index+1) % 2 === 0    //entonces ejecuta la función x*2
+
+    /*let ubicarPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
+        return ((index+1) %2 === 0) ;
+        });
+    console.log (ubicarPares);
+
+
+   let ubicarImPares = tarjetaInvertida.filter((elemento, index, tarjetaInvertida) => { 
+    return ((index+1) %2 != 0) ;
+    });
+    console.log (ubicarImPares);*/
     
-    let indexPares = inputInverso.filter(
-        
-        function (inputInverso) {
-            return ------------;
-            }
-            );
-        console.log(indexPares);
-
-
-     let numerosimpares =inputInverso.filter(inputInve);
+let ubicarPares = tarjetaInvertida.map((elemento, index, tarjetaInvertida) => { 
+        return ((index+1) %2 === 0) ;
+        });
+    console.log (ubicarPares);
 
 // concat() une dos o más arreglos y devuelve un nuevo arreglo.
+
+//let multiplicador = 2;
+
+//let productos = numeros.map(numero => numero * multiplicador);
+
+//console.log(productos);
     };

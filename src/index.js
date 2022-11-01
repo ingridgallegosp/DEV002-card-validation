@@ -46,43 +46,42 @@ console.log(validator);
         if ((index+1)%2===0){
             return element*2
         }else{
-            return element
+            return element*1 //para convertir el string en numero
         }
     });
     console.log (ubicarPares); //map me permite crear un nuevo array , igual numero de elementos, modificando los q si cumplen la condicion
 
     
-    //sumar digitos lenght > 1
+    //sumar digitos en ubicacion par lenght > 1
 
     let cardNumberSuma = ubicarPares.map((element, index, ubicarPares) => { 
         if ((index+1)%2===0) {     
             var suma = 0;
             do{ 
                 suma = suma + (element % 10);
-                element = element/10;
+                element = Math.floor(element/10);
             } while 
-                (element > 0)
+                (element > 0) //a veces con = y a veces con >
             return suma
         }else{
             return element
         }
     });
     console.log (cardNumberSuma); 
-    // numeros decimales-deben ser enteros
 
- 
+    //sumar todos digitos
+    let totalSuma = (element, cardNumberSuma) => { 
+        
+        for (let i = 0; i < 9; i++) {
+        element += i;
+        return element;
+    };
+    console.log(totalSuma);
+
+    };
 
 
-    
-    /*sumar todos digitos
-    let totalSuma = 
+    //comprobar si es correcto x%10 =0
 
-        let subtotal = 0;
-
-        for (let n of cardnumberSuma) {
-	    subtotal += n;
-        };
-
-    console.log(totalSuma);*/
 
     };

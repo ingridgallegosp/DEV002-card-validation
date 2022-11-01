@@ -74,17 +74,15 @@ console.log(validator);
 
 
     
-    //sumar todos digitos
-    //let totalSuma = 0
-// funtcion sumar
-/*const numeros = [100, 300, 500, 70];
-let suma = 0;
+    /*sumar todos digitos
+    let totalSuma = 
 
-for (let n of numeros) {
-	suma += n;
-}
+        let subtotal = 0;
 
-console.log(suma);
-*/
+        for (let n of cardnumberSuma) {
+	    subtotal += n;
+        };
+
+    console.log(totalSuma);*/
 
     };

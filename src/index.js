@@ -69,17 +69,11 @@ console.log(validator);
     });
     console.log (cardNumberSuma); 
 
+    
     //sumar todos digitos
 
-    let totalSuma = (element,index, cardNumberSuma) => { 
-       let suma2 = 0
-       let i = 0
-        for (i = 0; i <= 15; i++) {
-            element += i;
-            suma2 = suma2 + element;
-        return suma2;
-        };
-    };
+
+     // EJERCICIOS OH
     // function getDay(){
     //     return new Date()
     // }
@@ -95,13 +89,32 @@ console.log(validator);
     // var ref = ()=>null, {}, []
 
 
-    console.log(totalSuma());
-
-
     // console.log(getDay);
     // console.log(getDay());
 
+    
+    
+    //sumar todos digitos
+
+   /* let totalSuma = ((element, cardNumberSuma) => { 
+            var suma2 = 0;
+             for ( var i = 0;  i < 16 ; i++) { 
+               // elemento y i?
+               suma2 += element;
+             return suma2;
+             }; 
+    });
+    console.log(totalSuma()); //NaN */
+
+    let totalSuma = cardNumberSuma.reduce((a, b) => { return a + b; }
+    );
+    console.log(totalSuma)
+
+   
     //comprobar si es correcto (x % 10 = 0)
+
+    
+
 
 
     };

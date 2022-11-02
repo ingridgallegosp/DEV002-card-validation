@@ -70,18 +70,38 @@ console.log(validator);
     console.log (cardNumberSuma); 
 
     //sumar todos digitos
-    let totalSuma = (element, cardNumberSuma) => { 
-        
-        for (let i = 0; i < 9; i++) {
-        element += i;
-        return element;
+
+    let totalSuma = (element,index, cardNumberSuma) => { 
+       let suma2 = 0
+       let i = 0
+        for (i = 0; i <= 15; i++) {
+            element += i;
+            suma2 = suma2 + element;
+        return suma2;
+        };
     };
-    console.log(totalSuma);
+    // function getDay(){
+    //     return new Date()
+    // }
 
-    };
+    //const getDay = () => new Date() // HDF543x24
+
+    // const getDay = () => {
+    //    return  new Date()
+    // }
+
+    // const x = 5 
+
+    // var ref = ()=>null, {}, []
 
 
-    //comprobar si es correcto x%10 =0
+    console.log(totalSuma());
+
+
+    // console.log(getDay);
+    // console.log(getDay());
+
+    //comprobar si es correcto (x % 10 = 0)
 
 
     };

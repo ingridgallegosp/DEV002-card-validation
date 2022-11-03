@@ -113,8 +113,9 @@ console.log(validator);
    
     //comprobar si es correcto (x % 10 = 0)
 
-    if (totalSuma % 10 === 0)
-    { alert("TARJETA VALIDA");
+    if (totalSuma % 10 === 0) { 
+        alert("TARJETA VALIDA");
+        //document.write("TARJETA VALIDA")
         } else {
           alert("LA TARJETA INGRESADA NO ES VALIDA");
         }; 

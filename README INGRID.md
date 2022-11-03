@@ -41,7 +41,7 @@ Realice un alcance con subtareas a cumplir en cada actividad propuesta:
 
 - [ ] **Preguntar el numero de tarjeta**
      - Prototipo básico b&w de la aplicación web CARD VALIDATION.
-     ![maqueta basica blanco y negro](MAQUETASIMPLE.jpg)
+     ![maqueta basica blanco y negro](imagenes\MAQUETA SIMPLE.jpg)
      - Estructura HTML basada en el prototipo
         #### Imagen señalando ubicación del numero solicitado (PENDIENTE)
         Input type=text inputmode=numeric para escribir el numero de tarjeta

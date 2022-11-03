@@ -7,27 +7,32 @@
   </head>
   <body>
     <header> 
-      <h1>CARD VALIDATION</h1>
+      <img src ="imagenes\logo-07.png" alt="" class="scr1"/>
     </header>
    
     <section>
       <main>
+        
+        <h1>CARD VALIDATION</h1>
+        
+        <img src="imagenes\tarjeta OM-01.png" alt="" class="scr"/>
+        <br>
         <form id="Formulario">
+                    
+          <p>Para confirmar tu suscripción mensual, necesitamos </p>
+          <p> registrar y verificar la validez tu tarjeta de crédito.</p>
+          <br>
+          <br>
+           <label for="name">INGRESA EL NÚMERO DE TU TARJETA:</label>
+            <br>
+            <br>
+           <input type="text" inputmode="numeric" id="cardNumber" name="digitosTarjeta" minlength="16" maxlength="16">
           
-          <img src="C:\Users\INGRID\Desktop\Laboratoria\PROYECTO 1 - CARD VALIDATION\DEV002-card-validation\tarjeta OM-01.png" />
-          <br>
-
-          <label for="name">INGRESA EL NUMERO DE TU TARJETA</label>
-          <br>
-          <br>
-          <input type="text" inputmode="numeric" id="cardNumber" name="digitosTarjeta" minlength="16" maxlength="16">
- 
           <!-- input type number genera boton para incrementar y decrementar-no util tarjeta de credito -->
           <br>
           <br>
-          
           <section class="botonRespuestas">
-          <button type="submit" id="botonValidar"  value="validarTarjeta" >VALIDAR TARJETA</button>
+            <button type="submit" id="botonValidar"  value="validarTarjeta" >VALIDAR TARJETA</button>
           </section>
          
         </form>

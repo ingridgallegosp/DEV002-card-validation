@@ -1,19 +1,82 @@
-body {
-    background-color: rgb(244, 244, 244);
+
+header{
+    width: 309.875x;
+    height: 50px;
+    background-color: rgb(163, 174, 194);
+    text-align: left;
 }
 
-input {
-    width: 270px;
-    height: 24px;
-        
+
+body {
+    background-color: rgb(247, 247, 247);
 }
+
 
 h1 {
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
 }
 
-footer{
+section {
     text-align: center;
-    margin-bottom: 30px;
+}
+
+form {
+    text-align: center;
+    
+}
+
+p{
+    font-size: 12px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+label {
+    font-family: Verdana;
+    text-align: left;
+}
+
+
+img {
+    width: 350px;
+    height: 50px;
+  }
+
+
+
+input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0.02px solid #131313;
+    font-size: 20px;
+    font-family: Verdana; 
+    text-align: center;  
+    margin: auto; 
+}
+
+
+.botonRespuestas {
+    width: 350px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #131313;
+    font-size: 20px;
+    font-family: Verdana;
+    font-style: normal;
+    text-align: center;  
+  
+}
+
+
+footer{
+    width: 309.875x;
+    height: 50px;
+    background-color: rgb(163, 174, 194);
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Verdana;
+    text-align: center;
 }

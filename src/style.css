@@ -1,108 +1,120 @@
-
-    
+  
 header{
-    width: 309.875x;
-    height: 50px;
+    width: 100%;
+    height: 40px;
     background-color: rgb(163, 174, 194);
-    text-align: left;
+    text-align: center;
 }
 
 
 body {
     background-color: rgb(247, 247, 247);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
 }
 
 
-h1 {
-    text-align: center;
-    font-family: Verdana;
-}
+    h1 {
+        text-align: center;
+        font-family: Verdana;
+    }
 
-section {
-    text-align: center;
-}
 
-form {
-    text-align: center;
+
+    form {
     
-}
-
-p{
-    font-size: 12px;
-    font-family: Verdana;
-    text-align: center;
-}
-
-label {
-    font-family: Verdana;
-    text-align: left;
-}
+        height: 160px;
+        width: 355px;
+        padding: 25px;
+        margin-top:  25px;
+        margin-bottom: 25px;
+        
+        background: rgb(237, 237, 237);
+        text-align: center;
+        font-size: 15px;
+        border-radius: 20px;
 
 
-img {
-    text-align: center;
+    
+    }
 
- 
-  }
+    p{
+        font-size: 12px;
+        font-family: Verdana;
+        display: inline;
+    }
+    
+    .p1{
+        font-size: 12px;
+        font-family: Verdana;
+        display: block;
+    }
 
-
-.logo {
-    width: 20px;
-    height: 25px;
-
-
- 
-}
-.tarjeta {
-    width: 350px;
-    height: 50px;
- 
-}
-
-
+    label {
+        font-family: Verdana;
+        text-align: left;
+    }
 
 
-input {
-    width: 350px;
-    height: 50px;
-    border-radius: 10px;
-    border: 0.02px solid #131313;
-    font-size: 20px;
-    font-family: Verdana; 
-    text-align: center;  
-    margin: auto; 
-}
+    img {
+        text-align: center;
+    }
 
 
-.botonRespuestas {
-    display:flex;
-    justify-content:center;
-    align-items: center;
-}
+    .logo {
+        width: 20px;
+        height: 25px;
+    
+    }
+    .tarjeta {
+        width: 350px;
+        height: 180px;
+    }
 
-button {
-    width: 350px;
-    height: 50px;
-    background-color: #000000;
-    border-radius: 10px;
-    border: 2px solid #131313;
-    font-size: 20px;
-    font-family: Verdana;
-    text-align: center; 
-    color: #ffffff;
-    padding: auto; 
-}
+
+    input {
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        border: 0.02px solid #131313;
+        font-size: 20px;
+        font-family: Verdana; 
+        text-align: center;  
+        margin: auto; 
+    }
+
+
+    .botonRespuestas {
+        justify-content:center;
+        align-items: center;
+    }
+
+    button {
+        width: 350px;
+        height: 50px;
+        background-color: #000000;
+        border-radius: 10px;
+        border: 2px solid #131313;
+        font-size: 20px;
+        font-family: Verdana;
+        text-align: center; 
+        color: #ffffff;
+        padding: auto; 
+    }
 
 
 footer{
-    width: 309.875x;
-    height: 50px;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0px;
+    
     background-color: rgb(163, 174, 194);
     color: #ffffff;
     font-size: 12px;
     font-family: Verdana;
     text-align: center;
-    padding: auto; 
-
 
 }

@@ -115,7 +115,7 @@ console.log(validator);
 
     if (totalSuma % 10 === 0) { 
         alert("TARJETA VALIDA");
-        //document.write("TARJETA VALIDA")
+        //document.write("SUSCRIPCIÓN CONFIRMADA")
         } else {
           alert("LA TARJETA INGRESADA NO ES VALIDA");
         }; 

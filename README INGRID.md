@@ -26,7 +26,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. TO DO GENERAL
+## 2. RESUMEN DEL PROYECTO
 
 Partiendo del To Do propuesto en los Tips y Primeros pasos del proyecto:
 [Pistas y tips Laboratoria](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
@@ -64,28 +64,3 @@ SIGUIENTES PASOS
 - [ ] **Mejorar maqueta basica **
 - [ ] **Agregar estilos **
 - [ ] **Maqueta avanzada con Figma?**
-
-
-
-
-
-
-
-
-
-
-
-## 3. Objetivos de aprendizaje
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
-### HTML
-
-- [ ] **Uso de HTML semántico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-

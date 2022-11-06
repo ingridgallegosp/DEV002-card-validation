@@ -52,13 +52,13 @@ body {
         text-align: center;
     }
 
-    .logo {
+    img.logo {
         width: 30px;
         height: auto;
     }
     
     
-    .tarjeta {
+    img.tarjeta {
         width: 350px;
         height: auto;
     }
@@ -74,6 +74,14 @@ body {
         text-align: center;  
         margin: auto; 
     }
+
+    input:invalid{
+        
+        border: 0.02px solid #900;
+        background-color: #FDD;
+      }
+
+
 
 
     .botonRespuestas {

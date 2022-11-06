@@ -1,66 +1,87 @@
-# Tarjeta de crédito válida
+# APP CARD VALIDATION
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [2. Resumen del proyecto](#2-Resumen-del-proyecto)
+* [3. UX ](#3UX)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
-## 1. PREAMBULO
+## 1. Preámbulo
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+## El modelo de eCommerce por suscripción
 
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+El comercio electrónico por suscripción es una modalidad de venta online de bienes o servicios en la que en lugar de realizar una compra puntual de un producto a través de Internet, el cliente opta por un servicio continuado en el tiempo con una periodicidad concreta.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+A pesar de que las primeras suscripciones fueron de bienes digitales como música (Spotify) o series (Netflix), han  aparecido más suscripciones que se orientan a productos físicos como Birchbox (belleza), Blue Apron y Wetaca (comida) o Bookish (libros). Adicionalmente, los consumidores que alcanzaron la mayoría de edad en la era digital están acostumbrados justamente a este modelo, según un blog de la firma Hitwise. 
 
-## 2. RESUMEN DEL PROYECTO
+Si bien el modelo de ventas por suscripción no es nuevo, incorporarlo al modelo de compras online puede traer varias ventajas. El eCommerce por suscripción da a las empresas la oportunidad de contar con ventas recurrentes fijas (un flujo de ingresos más fluido), inventarios más fáciles de administrar, construir relaciones valiosas con sus clientes y crecer el reconocimiento y lealtad hacia la marca. Adicionalmente, brinda la posibilidad a las marcas de estudiar al cliente, entenderle y conocer sus gustos para anticiparse y ofrecerle productos y servicios que, verdaderamente, sean de su interés.
 
-Partiendo del To Do propuesto en los Tips y Primeros pasos del proyecto:
-[Pistas y tips Laboratoria](https://www.youtube.com/watch?v=f0zL6Ot9y_w)
+Pero las ventajas son tambien para los usuarios. De hecho, es el perfecto modelo de negocio win-win donde ambas partes salen ganando. El cliente tiene la posibilidad de obtener productos y servicios sin gastar demasiado tiempo en plataformas online. Además las suscripciones les permiten tener acceso al producto o servicio a precios especiales
 
-- [ ] **Preguntar el numero de tarjeta**
-- [ ] **Pasar números a un array inverso**
-- [ ] **Aplicar operación a números en posición par**
-- [ ] **Sumar dijitos y nuevos digitos**
-- [ ] **Comprobar si es válido**
 
-Realice un alcance con subtareas a cumplir en cada actividad propuesta: 
+## El contexto Ecuatoriano
 
-- [ ] **Preguntar el numero de tarjeta**
-     - Prototipo básico b&w de la aplicación web CARD VALIDATION.
-     ![maqueta basica blanco y negro](imagenes\MAQUETA SIMPLE.jpg)
-     - Estructura HTML basada en el prototipo
-        #### Imagen señalando ubicación del numero solicitado (PENDIENTE)
-        Input type=text inputmode=numeric para escribir el numero de tarjeta
-        Botón para enviar la información
-     - Almacenar numero obtenido en Variable
-     - Convertir número en Array
+El comercio digital creció en Ecuador desde 2020 alrededor de un 400%, principalmente, debido a las restricciones existentes durante los meses iniciales por la pandemia del Covid-19. 
 
-- [ ] **Pasar números a un array inverso**
+Si bien, algunos factores como la inflación, la guerra entre Rusia y Ucrania, y la situación de inseguridad que atraviesa el país representan grandes desafios para el ecommerce y su cadena de abastecimiento y logistica, el crecimiento de este canal digital continua debido a las ventajas que presenta para los usuarios y los cambios de hábitos adquiridos.
 
-- [ ] **Aplicar operación a números en posición par**
-      -Identificar numeros con ubicacion par
-      Realizar multiplicacion
+El comercio electrónico en el país es incipiente aún y hay muchas oportunidades y modalidades de venta por explorar.
 
-- [ ] **Sumar dijitos y nuevos digitos**
 
-- [ ] **Comprobar si es válido**
+## 2. Resumen del proyecto
 
-SIGUIENTES PASOS
-- [ ] **Ocultar digitos y dejar visible los ultimos 4 **
-- [ ] **Mejorar maqueta basica **
-- [ ] **Agregar estilos **
-- [ ] **Maqueta avanzada con Figma?**
+### Definición del producto
+
+La aplicación de Validación de Tarjeta puede ser de mucha utilidad para negocios y/o emprendimientos que operan bajo la modalidad de eCommerce, especialmente aquellos que manejan modelos de suscripción o realizan cobros recurrentes a sus clientes. 
+
+El objetivo de estos usuarios en relación al producto es el de validar los datos de las personas el momento de realizar el registro en su plataforma, especificamente, el de la tarjeta de crédito o débido a donde estan autorizando se realicen los respectivos cobros. 
+
+La aplicación permite verificar la validez o no de la tarjeta de crédito que se está registrando para los cobros. De esta manera se reducen errores en la información recopilada en el perfil del cliente y se evita el problema de admitir un numero de tarjeta mal digitado o una tarjeta fraudulenta, que impediría realizar el cobro del producto o servicio mes a mes (o según sea el servicio de subscripción ofertado). 
+
+
+### 3. UX (Diseño de experiencia de usuario)
+
+La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft y Diseño que busca incorporar el modelo de suscripcion trimestral de sus craftboxes (materiales e instrucciones con proyectos craft)
+
+### Prototipo baja fidelidad
+
+
+
+
+Antes de iniciar a codear, debes entender el problema que quieres solucionar y
+cómo tu aplicación lo soluciona.
+
+* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
+* Luego valida esta solución con una compañera (pedir feedback).
+* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
+
+
+
+FEEDBACK
+INSTRUCCIONES//PARA QUE ME PIDEN LA VALIDACION DE TARJETA
+NORMALMENTE SE pide registrar nombre fecha de caducidad y codigo(Esto no se incorpora debido a que son datos que no se procesan o validan dentro el ejercicio)
+instrucciones que hacer luego de realizar la verificacioón
+
+
+
+##### `README.md`
+
+Debe contener lo siguiente:
+
+* Un título con el nombre de tu proyecto.
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* La imagen final de tu proyecto.
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+    usuarios.
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  5. Imagen del prototipo final.
+

@@ -4,10 +4,8 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-Resumen-del-proyecto)
-* [3. UX ](#3UX)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [3. Investigación UX ](#3UX)
+
 
 ***
 
@@ -28,7 +26,7 @@ Pero las ventajas son tambien para los usuarios. De hecho, es el perfecto modelo
 
 El comercio digital creció en Ecuador desde 2020 alrededor de un 400%, principalmente, debido a las restricciones existentes durante los meses iniciales por la pandemia del Covid-19. 
 
-Si bien, algunos factores como la inflación, la guerra entre Rusia y Ucrania, y la situación de inseguridad que atraviesa el país representan grandes desafios para el ecommerce y su cadena de abastecimiento y logistica, el crecimiento de este canal digital continua debido a las ventajas que presenta para los usuarios y los cambios de hábitos adquiridos.
+Si bien, algunos factores como la inflación, la guerra entre Rusia y Ucrania, y la situación de inseguridad que atraviesa el país representan grandes desafíos para el ecommerce y su cadena de abastecimiento y logística, el crecimiento de este canal digital continua debido a las ventajas que presenta para los usuarios y los cambios de hábitos adquiridos.
 
 El comercio electrónico en el país es incipiente aún y hay muchas oportunidades y modalidades de venta por explorar.
 
@@ -46,42 +44,26 @@ La aplicación permite verificar la validez o no de la tarjeta de crédito que s
 
 ### 3. UX (Diseño de experiencia de usuario)
 
-La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft y Diseño que busca incorporar el modelo de suscripcion trimestral de sus craftboxes (materiales e instrucciones con proyectos craft)
+La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft y Diseño que busca incorporar el modelo de suscripción mensual de sus craftboxes (materiales e instrucciones para proyectos craft mes a mes)
 
 ### Prototipo baja fidelidad
 
+![maqueta-simple](imagenes\MAQUETA SIMPLE.jpg)
 
 
+### Comentarios feedback
 
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-
-
-
-FEEDBACK
 INSTRUCCIONES//PARA QUE ME PIDEN LA VALIDACION DE TARJETA
 NORMALMENTE SE pide registrar nombre fecha de caducidad y codigo(Esto no se incorpora debido a que son datos que no se procesan o validan dentro el ejercicio)
 instrucciones que hacer luego de realizar la verificacioón
 
 
 
-##### `README.md`
+### Prototipado Final
 
-Debe contener lo siguiente:
+![maqueta-modificada](imagenes\MAQUETA MODIFICADA-04.jpg)
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
+
+
+
 

@@ -16,6 +16,7 @@ console.log(validator);
     let valorObtenido = document.getElementById("cardNumber").value;
     console.log(valorObtenido)
 
+   
     //colocar elementos en array
     let valorTarjeta = Array.from(valorObtenido);
     console.log(valorTarjeta)

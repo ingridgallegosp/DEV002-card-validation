@@ -110,11 +110,8 @@ const validator = {
   //maskify
   maskify: function(numero) {    
       
-    return (numero.slice(0, -4).replace(/[a-zA-Z]/g, '#').concat(numero.slice(-4, numero.len)));
-    
+    return numero.replace(/.(?=.{4})/g, "#");
     },
-
-  
 
 };
 

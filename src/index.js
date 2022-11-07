@@ -28,7 +28,7 @@ console.log(validator);
         alert("SUSCRIPCIÓN CONFIRMADA")
         } else { // false
           alert("LA TARJETA INGRESADA NO ES VALIDA");
-        }; 
+        }
 
     };
 

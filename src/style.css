@@ -47,26 +47,23 @@ body {
         text-align: left;
     }
 
-    
-    img {
-        text-align: center;
-    }
 
     img.logo {
-        width: 30px;
+        width: 65px;
         height: auto;
+        
     }
     
     
     img.tarjeta {
-        width: 350px;
+        width: 700px;
         height: auto;
     }
 
 
     input {
-        width: 350px;
-        height: 50px;
+        width: 320px;
+        height: 45px;
         border-radius: 10px;
         border: 0.02px solid #131313;
         font-size: 20px;
@@ -90,8 +87,8 @@ body {
     }
 
     button {
-        width: 350px;
-        height: 50px;
+        width: 330px;
+        height: 45px;
         background-color: #000000;
         border-radius: 10px;
         border: 2px solid #131313;
@@ -104,10 +101,11 @@ body {
 
 
 footer{
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 40px;
-    padding: auto;
-    margin: auto;
+    
     
     background-color: rgb(163, 174, 194);
     color: #ffffff;

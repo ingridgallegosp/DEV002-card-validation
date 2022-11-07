@@ -53,17 +53,15 @@ La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft 
 
 ### Comentarios feedback
 
-INSTRUCCIONES//PARA QUE ME PIDEN LA VALIDACION DE TARJETA
-NORMALMENTE SE pide registrar nombre fecha de caducidad y codigo(Esto no se incorpora debido a que son datos que no se procesan o validan dentro el ejercicio)
-instrucciones que hacer luego de realizar la verificacioón
-
-
+- Instrucciones que hacer y / o mensaje que indique para qué me piden la verificación.
+- Normalmente en una página se pide registrar nombre, fecha de caducidad y codigo de la tarjeta (Esto no se incorpora debido a que son datos que no se procesan o validan dentro el ejercicio)
+- Instrucciones que hacer y / o mensaje que indique como continuar luego de realizar la verificación.
 
 ### Prototipado Final
 
 ![maqueta-modificada](imagenes\MAQUETA MODIFICADA-04.jpg)
 
-
+### Comentarios feedback
 
 
 

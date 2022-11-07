@@ -97,14 +97,14 @@ console.log(validator);
     
     //sumar todos digitos
 
-   /* let totalSuma = ((element, cardNumberSuma) => { 
-            var suma2 = 0;
-             for ( var i = 0;  i < 16 ; i++) { 
-               // elemento y i?
-               suma2 += element;
-             return suma2;
+   /*let totalSuma = (element,cardNumberSuma) => { 
+            let suma2 = 0;
+            var i ;
+            for ( i = 0;  i < 16 ; i++) { 
+            suma2 += element;
              }; 
-    });
+             return suma2;
+    };
     console.log(totalSuma()); //NaN */
 
     let totalSuma = cardNumberSuma.reduce((a, b) => { return a + b; }

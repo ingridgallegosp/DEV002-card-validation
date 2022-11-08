@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header> 
+      <img class="logo" src ="imagenes/logo-07.png" alt="logo OM" />
+    </header>
+   
+    <section class="general">
+      <main>
+        
+        <h1>CARD VALIDATION</h1>
+        
+        <img class="tarjeta" src="imagenes/tarjeta OM-01.png" alt="Modelo Tarjeta"/>
+        <br>
+        <p class="p1"> Para confirmar tu suscripción mensual, necesitamos <br /> registrar y verificar la validez tu tarjeta de crédito.</p>
+        <br>
+        <form id="Formulario" >
+                    
+           <label for="name">INGRESA EL NÚMERO DE TU TARJETA:</label>
+            <br>
+            <br>
+           <input type="text" inputmode="numeric" id="cardNumber" name="digitosTarjeta" minlength="16" maxlength="16" >
+          
+          <!-- input type number genera boton para incrementar y decrementar-no util tarjeta de credito -->
+          <br>
+          <br>
+          <section class="botonRespuestas">
+            <button type="submit" id="botonValidar"  value="validarTarjeta" > VALIDAR TARJETA </button>
+          </section>
+         
+        </form>
+        <br>
+
+      </main>
+    </section>
+    <footer>    Copyright © 2022 Objetos Mimados      </footer>
+   
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+

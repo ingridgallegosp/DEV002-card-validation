@@ -49,7 +49,7 @@ La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft 
 
 ### Prototipo baja fidelidad
 
-![maqueta-inicial](src\imagenes\MAQUETA SIMPLE.jpg)
+![](src\imagenes\MAQUETA SIMPLE.jpg)
 
 
 ### Comentarios feedback

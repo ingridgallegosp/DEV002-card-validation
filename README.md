@@ -60,7 +60,9 @@ La App se va a incorporar en la pagina de Objetos Mimados, un proyecto de Craft 
 
 ### Prototipado Final
 
-![maqueta-modificada](src\imagenes\MAQUETA MODIFICADA-04.jpg)
+![maqueta-modificada](C:\Users\INGRID\Desktop\Laboratoria\PROYECTO 1 - CARD VALIDATION\DEV002-card-validation\src\imagenes\MAQUETA MODIFICADA-04.jpg)
+
+![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ### Comentarios feedback
 

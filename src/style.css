@@ -104,7 +104,8 @@ footer{
    
     width: 100%;
     height: 40px;
-    
+    bottom: 0px;
+
     
     background-color: rgb(163, 174, 194);
     color: #ffffff;

@@ -14,6 +14,7 @@ console.log(validator);
     
     //almacenar valor en variable
     let valorObtenido = document.getElementById("cardNumber").value;
+    
     console.log(valorObtenido)
 
    // se realizan las operacion de validacion//
